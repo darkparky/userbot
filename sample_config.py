@@ -95,6 +95,9 @@ class Config(object):
     GOOGLE_CHROME_DRIVER = os.environ.get("GOOGLE_CHROME_DRIVER", None)
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
     #
+    CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
+    CHROME_BIN = os.environ.get("CHROME_BIN", None)
+    #
     LYDIA_API = os.environ.get("LYDIA_API", None)
     #
     # define "spam" in PMs
