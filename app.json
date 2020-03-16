@@ -126,6 +126,16 @@
       "description": "Get your credentials from https://da.gd/so63O",
       "required": false
     },
+    "CHROME_BIN": {
+      "description": "For Carbon.py",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "For Carbon.py",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+    },
     "G_DRIVE_CLIENT_SECRET": {
       "description": "Get your credentials from https://da.gd/so63O",
       "required": false
