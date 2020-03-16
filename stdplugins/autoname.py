@@ -6,7 +6,7 @@ import time
 from telethon.tl import functions
 from telethon.errors import FloodWaitError
 from uniborg.util import admin_cmd
-from userbot import AUTONAME
+from uniborg import AUTONAME
 
 
 DEL_TIME_OUT = 60
