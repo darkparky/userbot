@@ -43,3 +43,9 @@ async def sprinkle(event):
     if event.fwd_from:
         return
     await event.edit("✨.•*¨*.¸.•*¨*.¸¸.•*¨*• ƸӜƷ\n🌸🌺🌸🌺🌸🌺🌸🌺\n Sprinkled with love❤\n🌷🌻🌷🌻🌷🌻🌷🌻\n ¨*.¸.•*¨*. ¸.•*¨*.¸¸.•*¨`*•.✨\n🌹🍀🌹🍀🌹🍀🌹🍀")
+
+@borg.on(admin_cmd(pattern=r"repo"))
+async def repo(event):
+    if event.fwd_from:
+        return
+    await event.edit("**Repo of the legend @viperadnan**\nhttps://github.com/viperadnan-dummy/userbot\n\n```Enjoy```")
